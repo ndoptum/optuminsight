@@ -4,58 +4,147 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <title>Products: OptumInsight</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title> OptumInsight: Catalog</title>
+  </head>
 
 <style>
-	div .container.row { display: flex; }
-	div .column { } 
-	h3 { }
-	  
-	  
-	  
-	  
-	  
-	  
+
+
+.brandlogo {
+    height: 60px;
+}
+.mynav {
+    margin-left: auto;
+    padding-right: 50px;
+}
+.mybox1 {
+    padding:20px 20px 20px 10px;
+}
+.mycont1 {
+    padding-bottom: 50px;
+
+}
+.mybox3 {
+    padding:10px;
+    background-color: #CE4B27;
+    color: white;
+}
+.mybox4:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.25s;
+}
 </style>
-</head>
-
-<body>
-
-	<h1> OptumInsight Products for Providers </h1>
-	<hr>
-	<div class = "container">
-		<div class = "row">
-			<div class = "column">
-				<h3> Payer Relationships </h3> 
-			</div>
-			<div class = "column">
-				<h3> Data Management </h3> 
-			</div>
-			<div class = "column">
-				<h3> Patient Experience </h3> 
-			</div>
-			<div class = "column">
-				<h3> Provider Operations </h3> 
-			</div>
-		</div>
-	</div>
-	
-	
 
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-</body>
+
+  <body>
+    <!-- header row with logo on left and toggle for provider, payer and lifesciences on right -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><a href="#"><img src="./optumlogo.svg" alt="Optumlogo" class="brandlogo"></a></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" >
+            <ul class="navbar-nav mynav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Provider</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-current="page" href="#">Payer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-current="page" href="#">Lifesciences</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+            <div class="display-5 mybox1">OptumInsight for Provider</div>
+            <div class="p mycont1" > For you, a provider leader, OptumInsight will help in modernizing your revenue cycles. We'll help you derive intelligence from your data in ways that will improve clinical outcomes across at-risk populations, and help you achieve your population health goals. OptumInsight helps you in attracting new patients with targeted initiatives. We'll help you in managing patients' pharmacy & health care spends with models beyond what's offered in traditional pharmacy benefit management. </div>
+        </div>
+      </div>
+
+
+<!-- Carousal which will serve three slides under it: vertical break up of optuminsight provider into different categories -->
+
+      
+<!-- Helping you manage your relationship with Payers -->
+
+<div class="container mybox2">
+    <div class="row">
+        <div class="h4 mybox3 shadow-sm" >Helping you manage your relationships with Payers</div>
+    </div>
+</div>
+
+<div class="container mt-5 mb-5 ">
+    <div class="row">
+        <div class="col-4">
+            <div class="card  mybox4" style="width: 25rem;">
+                <div class="card-body">
+                  <h4 class="card-title mb-4">Coding & Documentation</h4>
+                  <hr>
+                  <h6 class="card-subtitle mb-3 text-muted">Capture complete and accurate information throughout the patient stay</h6>
+                  
+                  <p class="card-text text-muted mb-5">You gain accurate quality reporting, improved medical necessity determinations and reduced denials. By attaining complete and accurate documentation and coding, you reduce friction with payers, rework and lost revenue.</p>
+                  <button type="button" class="btn btn-primary">Know more</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card  mybox4" style="width: 25rem;">
+                <div class="card-body">
+                  <h4 class="card-title mb-4">Managing Claims & Reimbursements</h4>
+                  <hr>
+                  <h6 class="card-subtitle mb-3 text-muted">Drive revenue integrity with proven services & technology</h6>
+                  
+                  <p class="card-text text-muted mb-5">You achieve higher first-pass payment rates, reduced write-offs / denials, and improved recovery rates while eliminating needless feedback loops with payers.</p>
+                  <button type="button" class="btn btn-primary">Know more</button>
+                </div>
+              </div>  
+        </div>
+        <div class="col-4">
+            <div class="card  mybox4" style="width: 25rem;">
+                <div class="card-body">
+                  <h4 class="card-title mb-4">Managing Revenue Cycle in Outpatient Care</h4>
+                  <hr>
+                  <h6 class="card-subtitle mb-3 text-muted">Capture charge effectively & optimize outpatient operations.</h6>
+                  
+                  <p class="card-text text-muted mb-5">Our comprehensive ambulatory platform provides reporting & analytics capabilities that drive up your patient market share. Our products helps you capture charge all across the outpatient spectrum.</p>
+                  <button type="button" class="btn btn-primary">Know more</button>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+  
+
+ 
+
+
+    <!-- Filter row where you can select: all, bundle 1, bundle 2, bundle 3 -->
+
+
+
+
+    <!-- category-wise rendering category headers in orange boxes on the left, subprocesses in rows to the right and products in grey boxes under them -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+  </body>
 </html>
