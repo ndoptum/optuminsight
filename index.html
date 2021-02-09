@@ -48,32 +48,34 @@
         opacity: 0.6;
     }
 
- 
-.mybunname{
-    margin-bottom: 20px;
-    background-color: #e87722;
-    color: white;
-}
 
-#bundles1000 {
+    .mybunname {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: #e87722;
+        color: white;
+    }
+
+    /* #bundles1000 {
     display: none;
-}
+} */
 
-h5 {
-    text-align: center;
-}
+    .mycenter {
+        text-align: center;
+    }
 
-.my-center-aligned-text {
-    text-align: center;
-    font-size: 80%;
-}
+    .mysmallfont {
+        font-size: 80%;
+    }
 
+    .myhover:hover {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        transition-duration: 0.15s;
+    }
 </style>
 
 
 <body>
-    <!-- header row with logo on left and toggle for provider, payer and lifesciences on right -->
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><a href="#"><img src="./optumlogo.svg" alt="Optumlogo"
@@ -102,7 +104,8 @@ h5 {
         <div class="row">
             <div class="display-5 mybox1">OptumInsight for Provider</div>
             <div class="col">
-                <button type="button" onclick="myFunction1()" class="btn btn-secondary my-3 mybutton ">SOLUTIONS</button>
+                <button type="button" onclick="myFunction1()"
+                    class="btn btn-secondary my-3 mybutton ">SOLUTIONS</button>
                 <button type="button" onclick="myFunction2()" class="btn btn-secondary my-3 mybutton ">BUNDLES</button>
             </div>
             <div class="p mycont1"> For you, a provider leader, OptumInsight will help in modernizing your revenue
@@ -1137,141 +1140,215 @@ h5 {
             </div>
         </div>
     </div>
-</div>
 
-<div id = "bundles1000">
+    <div id="bundles1000">
 
- <div class="container">
-     <div class="row">
-         <div class="col-4">
-            <div class="card  mybox4 mybunname" style= "background-color: #E87722;" >
-                <div class="card-body">
-                    <h4 class="card-title mb-4">Bundle 1</h4>
-                    <hr>
-                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
-
-                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
-                    <button type="button" class="btn btn-light">Know more</button>
+        <div class="container ">
+            <div class="row border border-danger p-2 my-2 myhover">
+                <div class="col-4"> 
+                    <div class="card  mybox4 mybunname" style="background-color: #E87722;">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Ambulatory Solutions</h4>
+                            <hr>
+                            <h6 class="card-subtitle mb-5">Solutions for Ambulatory & OP providers in care management,
+                                reimbursement and quality improvement.</h6>
+                            <button type="button" class="btn btn-light">Know more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>Ambulatory Physician Services</h6>
+                        </div>
+                        <div class="col-8 my-2">To help you in managing in your outpatient business whether it is
+                            patient acquisition, provider management, operations support & analytics.
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>Outpatient Charge Capture</h6>
+                        </div>
+                        <div class="col-8 my-2">To help you accurately capture your outpatient charges across entire
+                            outpatient care spectrum including ED, OPD, & clinics.
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>On-site Physician Advisor</h6>
+                        </div>
+                        <div class="col-8 my-2">To be there for you when you need expert clinicians that can help review
+                            clinical documentation to ensure that you're billing accurately and correctly.
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>Crimson Medical Referrals</h6>
+                        </div>
+                        <div class="col-8 my-2">To help you manage referrals within your clinics and prevent patient leakage from your network while maching the patient with the right physician.
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>Practice Management Platform Optimization</h6>
+                        </div>
+                        <div class="col-8 my-2">To help you achieve your practice's revenue cycle goals, manage care and increase patient revenues.
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>Case Advisor Services</h6>
+                        </div>
+                        <div class="col-8 my-2">O help you in case management from utilization review to case stratification to physician advisor.
+                        </div>
+                    </div>
                 </div>
             </div>
-         </div>
-         <div class="col-8">
-            <div class="row">
-                <div class="col border p-2">
-                    <h5>Ambulatory Physician Services</h5>
-                    <hr>
-                    <p class= "my-center-aligned-text">As a provider I want help in managing my outpatient business - whether it is patient acquisition, provider management, operations support or analytics.</p>
+            <div class="row border border-warning p-2 my-2 myhover">
+                <div class="col-4">
+                    <div class="card  mybox4 mybunname" style="background-color: #F2B411;">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Denial Management & Appeals</h4>
+                            <hr>
+                            <h6 class="card-subtitle mb-5">Solutions that support you in all of denial management, utilization review and appeals with payers</h6>
+
+                            <button type="button" class="btn btn-light">Know more</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <p>Outpatient Charge Capture</p>
-                </div>
-                <div class="col">
-                    <p>On-site Physician Advisor</p>
-                </div>
-                <div class="col">
-                    <p>Crimson Medical Referrals</p>
-                </div>
-            </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>First Level Review Services</h6>
+                        </div>
+                        <div class="col-8 my-2">To help you in denial management and utilization. These services perform Interqual and or MCG reviews on your behalf.
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>Appeals and denials Management</h6>
+                        </div>
+                        <div class="col-8 my-2">We give you the opportunity to outsource the process of contesting a retrospective denial with Commercial & Medicaid Payers. 
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>Insurance Services</h6>
+                        </div>
+                        <div class="col-8 my-2">To support you in cash recovery, receivalbes from your payers.
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>Crimson Medical Referrals</h6>
+                        </div>
+                        <div class="col-8 my-2">To help you manage referrals within your clinics and prevent patient leakage from your network while maching the patient with the right physician.
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 my-2">
+                            <h6>Practice Management Platform Optimization</h6>
+                        </div>
+                        <div class="col-8 my-2">To help you achieve your practice's revenue cycle goals, manage care and increase patient revenues.
+                        </div>
+                        <hr>
+                    </div>
 
 
 
-
-         </div>
-     </div>
-     <div class="row">
-         <div class="col-4">
-            <div class="card  mybox4 mybunname" style= "background-color: #F2B411;" >
-                <div class="card-body">
-                    <h4 class="card-title mb-4">Bundle 2</h4>
-                    <hr>
-                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
-
-                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
-                    <button type="button" class="btn btn-light">Know more</button>
-                </div>
-            </div>
-         </div>
-         <div class="col-8"></div>
-     </div>
-     <div class="row">
-         <div class="col-4">
-            <div class="card  mybox4 mybunname"style= "background-color: #B3B3B3;" >
-                <div class="card-body">
-                    <h4 class="card-title mb-4">Bundle 3</h4>
-                    <hr>
-                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
-
-                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
-                    <button type="button" class="btn btn-light">Know more</button>
-                </div>
-            </div>
-         </div>
-         <div class="col-8"></div>
-     </div>
-     <div class="row">
-         <div class="col-4">
-            <div class="card  mybox4 mybunname" style= "background-color: #444444;" >
-                <div class="card-body">
-                    <h4 class="card-title mb-4">Bundle 4</h4>
-                    <hr>
-                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
-
-                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
-                    <button type="button" class="btn btn-light">Know more</button>
                 </div>
             </div>
-         </div>
-         <div class="col-8"></div>
-     </div>
-     <div class="row">
-         <div class="col-4">
-            <div class="card  mybox4 mybunname" style= "background-color: #959595;">
-                <div class="card-body">
-                    <h4 class="card-title mb-4">Bundle 5</h4>
-                    <hr>
-                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
+            <div class="row border p-2 my-2 myhover">
+                <div class="col-4">
+                    <div class="card  mybox4 mybunname" style="background-color: #B3B3B3;">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Bundle 3</h4>
+                            <hr>
+                            <h6 class="card-subtitle mb-3">Contains a group of products</h6>
 
-                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
-                    <button type="button" class="btn btn-light">Know more</button>
+                            <p class="card-text mb-5">Contains a group of products Contains a group of products Contains
+                                a group of productsContains a group of products</p>
+                            <button type="button" class="btn btn-light">Know more</button>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-8"></div>
             </div>
-         </div>
-         <div class="col-8"></div>
-     </div>
- </div>   
+            <div class="row border p-2 my-2 myhover">
+                <div class="col-4">
+                    <div class="card  mybox4 mybunname" style="background-color: #444444;">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Bundle 4</h4>
+                            <hr>
+                            <h6 class="card-subtitle mb-3">Contains a group of products</h6>
 
-</div>
-                    
+                            <p class="card-text mb-5">Contains a group of products Contains a group of products Contains
+                                a group of productsContains a group of products</p>
+                            <button type="button" class="btn btn-light">Know more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8"></div>
+            </div>
+            <div class="row border p-2 my-2 myhover">
+                <div class="col-4">
+                    <div class="card  mybox4 mybunname" style="background-color: #959595;">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Bundle 5</h4>
+                            <hr>
+                            <h6 class="card-subtitle mb-3">Contains a group of products</h6>
+
+                            <p class="card-text mb-5">Contains a group of products Contains a group of products Contains
+                                a group of productsContains a group of products</p>
+                            <button type="button" class="btn btn-light">Know more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8"></div>
+            </div>
+        </div>
+
+    </div>
 
 
 
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-                        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-                        crossorigin="anonymous"></script>
-                    <script>
-                        function myFunction1() {
-                            var x = document.getElementById("solutions1000");
-                            var y = document.getElementById("bundles1000");
-                            if (x.style.display === "none") {
-                                y.style.display = "none";
-                                x.style.display = "block";
-                                
-                            } else {
-                                x.style.display = "none";
-                            }
-                        }
-                        function myFunction2() {
-                            var x = document.getElementById("bundles1000");
-                            var y = document.getElementById("solutions1000");
-                            if (x.style.display === "none") {
-                                y.style.display = "none";
-                                x.style.display = "block";
-                            } else {
-                                x.style.display = "none";
-                            }
-                        }
 
-                    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+        </script>
+    <script>
+        function myFunction1() {
+            var x = document.getElementById("solutions1000");
+            var y = document.getElementById("bundles1000");
+            if (x.style.display === "none") {
+                y.style.display = "none";
+                x.style.display = "block";
+
+            } else {
+                x.style.display = "none";
+            }
+        }
+        function myFunction2() {
+            var x = document.getElementById("bundles1000");
+            var y = document.getElementById("solutions1000");
+            if (x.style.display === "none") {
+                y.style.display = "none";
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+    </script>
 
 
 
