@@ -1,150 +1,1135 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <title> OptumInsight: Catalog</title>
-  </head>
+</head>
 
 <style>
+    .brandlogo {
+        height: 60px;
+    }
 
+    .mynav {
+        margin-left: auto;
+        padding-right: 50px;
+    }
 
-.brandlogo {
-    height: 60px;
-}
-.mynav {
-    margin-left: auto;
-    padding-right: 50px;
-}
-.mybox1 {
-    padding:20px 20px 20px 10px;
-}
-.mycont1 {
-    padding-bottom: 50px;
+    .mybox1 {
+        padding: 20px 20px 20px 10px;
+    }
 
-}
-.mybox3 {
-    padding:10px;
-    background-color: #CE4B27;
-    color: white;
-}
-.mybox4:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition-duration: 0.25s;
-}
+    .mycont1 {
+        padding-bottom: 50px;
+
+    }
+
+    .mybox3 {
+        padding: 10px;
+        background-color: #CE4B27;
+        color: white;
+    }
+
+    .mybox4:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition-duration: 0.25s;
+    }
+
+    .disabled {
+        opacity: 0.6;
+    }
 </style>
 
 
 
-  <body>
+
+<body>
     <!-- header row with logo on left and toggle for provider, payer and lifesciences on right -->
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><a href="#"><img src="./optumlogo.svg" alt="Optumlogo" class="brandlogo"></a></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" >
-            <ul class="navbar-nav mynav ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Provider</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-current="page" href="#">Payer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-current="page" href="#">Lifesciences</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#"><a href="#"><img src="./images/optumlogo.svg" alt="Optumlogo"
+                        class="brandlogo"></a></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mynav ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Provider</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" href="#">Payer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-current="page" href="#">Lifesciences</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-      <div class="container">
+    <div class="container">
         <div class="row">
             <div class="display-5 mybox1">OptumInsight for Provider</div>
-            <div class="p mycont1" > For you, a provider leader, OptumInsight will help in modernizing your revenue cycles. We'll help you derive intelligence from your data in ways that will improve clinical outcomes across at-risk populations, and help you achieve your population health goals. OptumInsight helps you in attracting new patients with targeted initiatives. We'll help you in managing patients' pharmacy & health care spends with models beyond what's offered in traditional pharmacy benefit management. </div>
-        </div>
-      </div>
-
-
-<!-- Carousal which will serve three slides under it: vertical break up of optuminsight provider into different categories -->
-
-      
-<!-- Helping you manage your relationship with Payers -->
-
-<div class="container mybox2">
-    <div class="row">
-        <div class="h4 mybox3 shadow-sm" >Helping you manage your relationships with Payers</div>
-    </div>
-</div>
-
-<div class="container mt-5 mb-5 ">
-    <div class="row">
-        <div class="col-4">
-            <div class="card  mybox4" style="width: 25rem;">
-                <div class="card-body">
-                  <h4 class="card-title mb-4">Coding & Documentation</h4>
-                  <hr>
-                  <h6 class="card-subtitle mb-3 text-muted">Capture complete and accurate information throughout the patient stay</h6>
-                  
-                  <p class="card-text text-muted mb-5">You gain accurate quality reporting, improved medical necessity determinations and reduced denials. By attaining complete and accurate documentation and coding, you reduce friction with payers, rework and lost revenue.</p>
-                  <button type="button" class="btn btn-primary">Know more</button>
-                </div>
-              </div>
-        </div>
-        <div class="col-4">
-            <div class="card  mybox4" style="width: 25rem;">
-                <div class="card-body">
-                  <h4 class="card-title mb-4">Managing Claims & Reimbursements</h4>
-                  <hr>
-                  <h6 class="card-subtitle mb-3 text-muted">Drive revenue integrity with proven services & technology</h6>
-                  
-                  <p class="card-text text-muted mb-5">You achieve higher first-pass payment rates, reduced write-offs / denials, and improved recovery rates while eliminating needless feedback loops with payers.</p>
-                  <button type="button" class="btn btn-primary">Know more</button>
-                </div>
-              </div>  
-        </div>
-        <div class="col-4">
-            <div class="card  mybox4" style="width: 25rem;">
-                <div class="card-body">
-                  <h4 class="card-title mb-4">Managing Revenue Cycle in Outpatient Care</h4>
-                  <hr>
-                  <h6 class="card-subtitle mb-3 text-muted">Capture charge effectively & optimize outpatient operations.</h6>
-                  
-                  <p class="card-text text-muted mb-5">Our comprehensive ambulatory platform provides reporting & analytics capabilities that drive up your patient market share. Our products helps you capture charge all across the outpatient spectrum.</p>
-                  <button type="button" class="btn btn-primary">Know more</button>
-                </div>
-              </div>
+            <div class="col">
+                <button type="button" onclick="myFunction1()" class="btn btn-secondary my-3 mybutton ">SOLUTIONS</button>
+                <button type="button" onclick="myFunction2()" class="btn btn-secondary my-3 mybutton ">BUNDLES</button>
+            </div>
+            <div class="p mycont1"> For you, a provider leader, OptumInsight will help in modernizing your revenue
+                cycles.
+                We'll help you derive intelligence from your data in ways that will improve clinical outcomes across
+                at-risk
+                populations, and help you achieve your population health goals. OptumInsight helps you in attracting new
+                patients with targeted initiatives. We'll help you in managing patients' pharmacy & health care spends
+                with
+                models beyond what's offered in traditional pharmacy benefit management. </div>
         </div>
     </div>
-</div>
+
+    <div id="solutions1000">
+        <!-- Helping you manage your relationship with Payers -->
+
+        <div class="container mybox2">
+            <div class="row">
+                <div class="h4 mybox3 shadow-sm">Helping you manage your relationships with Payers</div>
+            </div>
+        </div>
+
+        <div class="container mt-5 mb-5 ">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card  mybox4" style="width: 25rem;">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Coding & Documentation</h4>
+                            <hr>
+                            <h6 class="card-subtitle mb-3 text-muted">Capture complete and accurate information
+                                throughout the patient stay</h6>
+
+                            <p class="card-text text-muted mb-5">You gain accurate quality reporting, improved medical
+                                necessity determinations and reduced denials. By attaining complete and accurate
+                                documentation and coding, you reduce friction with payers, rework and lost revenue.</p>
+                            <button type="button" class="btn btn-light">Know more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card  mybox4" style="width: 25rem;">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Managing Claims & Reimbursements</h4>
+                            <hr>
+                            <h6 class="card-subtitle mb-3 text-muted">Drive revenue integrity with proven services &
+                                technology</h6>
+
+                            <p class="card-text text-muted mb-5">You achieve higher first-pass payment rates, reduced
+                                write-offs / denials, and improved recovery rates while eliminating needless feedback
+                                loops with payers.</p>
+                            <button type="button" class="btn btn-light">Know more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card  mybox4" style="width: 25rem;">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Managing Revenue Cycle in Outpatient Care</h4>
+                            <hr>
+                            <h6 class="card-subtitle mb-3 text-muted">Capture charge effectively & optimize outpatient
+                                operations.</h6>
+
+                            <p class="card-text text-muted mb-5">Our comprehensive ambulatory platform provides
+                                reporting & analytics capabilities that drive up your patient market share. Our products
+                                helps you capture charge all across the outpatient spectrum.</p>
+                            <button type="button" class="btn btn-light">Know more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Description of Products as an accordian under first, second & third tile -->
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-4">
+                    <!-- list of products under coding & documentation -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne3" aria-expanded="false"
+                                    aria-controls="flush-collapseOne3">
+                                    Enterprise Computer Assisted Coding (CAC)
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne3" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne3" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Enterprise CAC is a fully integrated solution, with CAC,
+                                    coding and reimbursement tools, enhanced workflow and automated CDI capabilities
+                                    that are designed to work together as a whole. It’s a single solution that can meet
+                                    all of a hospitals coding needs. Optum360 Enterprise Computer-Assisted Coding
+                                    Platform (Enterprise CAC) provides coders the information and tools they need in a
+                                    single, streamlined solution.1. Leverage importance of complete and accurate coding
+                                    and reimbursement capture from all relevant medical documentation in near real
+                                    time.2. Continue CAC integrated encoder strategy to drive hospital encoder
+                                    replacement strategy 3. Common platforms and continued NLP maturity with expanded
+                                    platform capabilities with CDI and coding.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Electronic & Print Coding Content Reference
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">The Optum360 Electronic Coding solutions platform leads
+                                    medical coding and billing references. The customer base spans multiple markets -
+                                    physician, payer, hospital, pharma and student markets. These include 12 core hosted
+                                    products with 30 add-ons supporting over 140K users for coding, billing and
+                                    referential content.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Optum Clinical Documentation Improvement Tool:
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Optum CDI 3D combines breakthrough technology, clinical
+                                    revenue cycle workflow enhancements and change management support for a best
+                                    practice approach to CDI.- Automated case review provides concurrent recognition of
+                                    documentation deficiencies.- LifeCode® NLP technology identifies both specificity
+                                    and clinical clarification opportunities.- Intelligent case-finding logic uses
+                                    proprietary algorithms to identify the specific cases most likely to have
+                                    improvement opportunities for coding, quality, etc.- Drives clinically relevant
+                                    query content with bi-directional query integration.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Enterprise CAC Professional
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">LifeCode leverages more than 10 million medical facts to
+                                    read physician documentation and understand grammar and syntax, identifying key
+                                    clinical facts and mapping those facts to codes. The Professional CAC UI combines
+                                    these tools with clinical documentation to provide coders a global view of the
+                                    patient experience in one technology. The UI further enhances the value by providing
+                                    traceability of NLP and Coding activities by utilizing highlights linked to codes to
+                                    provide a clear audit trail.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    Coding Managed Services
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Provide coding services capability to the US market which
+                                    has experienced high demand as the result of EMR proliferation, increased focus on
+                                    clinical quality measures and quality and accuracy of coding. Coding resources are
+                                    hard to recruit & maintain due to competitive market. Division provides coding
+                                    services to e2e and commercial clients globally. Coding services leverages global
+                                    and domestic resources to reduce cost while ensuring quality.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    Encoder & Payment Systems
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">A suite of products for correct coding and pricing of
+                                    claims. (1) Web Strat: coding, reimbursement and batch claims processing
+                                    capabilities to providers. (2) Knowledge Components (KC): embeddable software
+                                    modules that support the implementation of Optum’s coding & reimbursement
+                                    functionality within third-party applications.
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <!-- list of products under claims & reimbursements -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne1" aria-expanded="false"
+                                    aria-controls="flush-collapseOne1">
+                                    Managed Insurance Services
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne1" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">Insurance Services combines intelligent technology and
+                                    expertise to help providers increase staff efficiency and accelerate long term cash
+                                    recovery, while resolving aged and ongoing third-party insurance receivables.
+                                    Insurance Services allows Providers to acquire critical revenue cycle solutions and
+                                    tools, while avoiding capital budget issues. Components of Insurance Services
+                                    principally include Claims Billing and Follow-up, A/R Recovery, Denial Recovery,
+                                    Payment Management Services.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo1" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo1">
+                                    Claims Manager
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo1" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">Optum Claims Manager identifies unbilled items and missed
+                                    charges based on historical claim data. It discover claims certain to deny before
+                                    submission to payers and has a Knowledgebase with over 131 million editing scenarios
+                                    for Medicare, Medicaid, and Commercial editing and compliance. It provides the GUI
+                                    to analyze claims and provide the corresponding edit message specific to the
+                                    particular scenario. It uses ILOG and DDR system rules for processing, as well as
+                                    custom rules depending on client need.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree1" aria-expanded="false"
+                                    aria-controls="flush-collapseThree1">
+                                    Insurance Services
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree1" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">Insurance services combine technology & expertise to help
+                                    providers increase staff efficiency and accelerate long term cash recovery while
+                                    resolving aged and ongoing third-party insurance receivables. Insurance services
+                                    allow providers to acquire critical revenue cycle solutions while avoiding capital
+                                    budget issues. Components of Insurance services principally include claims billing &
+                                    follow-up, A/R recovery, denial recovery, Payment management services.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour1" aria-expanded="false"
+                                    aria-controls="flush-collapseFour1">
+                                    Payment Integrity Compass
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour1" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">Payment Integrity Compass is a contract management and
+                                    modelling tool that brings together institutional, professional, and contract data
+                                    to deliver integrated insights and intelligent workflow that maximize
+                                    fee-for-service contract yield and forge clear a path to higher revenue.
 
 
-  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive1" aria-expanded="false"
+                                    aria-controls="flush-collapseFive1">
+                                    Reimbursement Workflow Solutions
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive1" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">A comprehensive workflow and analytics solution that
+                                    includes: Intelligent and automated workflow, Accounts Receivables, Insurance Follow
+                                    Up, Denial Management, Bad Debt and Self Pay Claims submission/ auditing, Billing
+                                    Rejections, CAC Workflow Integration, CDI Workflow Integration, Outsourced AR
+                                    Management
 
- 
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix1" aria-expanded="false"
+                                    aria-controls="flush-collapseSix1">
+                                    Appeals & Denials Management
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix1" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix1" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">The Appeals service provides a hospital with the opportunity
+                                    to outsource the process of contesting a retrospective denial with a payer. EHR has
+                                    performed millions of Medicare appeals and the need for Commercial / Managed appeals
+                                    management is also growing.
 
 
-    <!-- Filter row where you can select: all, bundle 1, bundle 2, bundle 3 -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading71">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse71" aria-expanded="false"
+                                    aria-controls="flush-collapse71">
+                                    On-site Physician Advisor
+                                </button>
+                            </h2>
+                            <div id="flush-collapse71" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading71" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">It provides concurrent review services by leveraging on-side
+                                    Optum Physicians.
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading81">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse81" aria-expanded="false"
+                                    aria-controls="flush-collapse81">
+                                    First Level Review Services
+                                </button>
+                            </h2>
+                            <div id="flush-collapse81" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading81" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">As part of this tech enabled service, Optum performs first
+                                    level InterQual or MCG clinical reviews on behalf of providers.
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading91">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse91" aria-expanded="false"
+                                    aria-controls="flush-collapse91">
+                                    Case Advisor (SaaS)
+                                </button>
+                            </h2>
+                            <div id="flush-collapse91" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading91" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">A utilization management software sold to hospitals and
+                                    payer for the assessing medical necessity for cases.
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading101">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse101" aria-expanded="false"
+                                    aria-controls="flush-collapse101">
+                                    Case Advisor Service
+                                </button>
+                            </h2>
+                            <div id="flush-collapse101" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading101" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">TCase Advisor Service offers a more efficient and accurate
+                                    utilization review through automated initial case stratification, greater process
+                                    control and standardization, and NLP-enhanced Physician Advisor case review.
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading111">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse111" aria-expanded="false"
+                                    aria-controls="flush-collapse111">
+                                    HIM Performance Outsourcing
+                                </button>
+                            </h2>
+                            <div id="flush-collapse111" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading111" data-bs-parent="#accordionFlushExample1">
+                                <div class="accordion-body">Revenue cycle management managed services.
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <!-- list of products under outpatient RCM -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample2">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne2" aria-expanded="false"
+                                    aria-controls="flush-collapseOne2">
+                                    Ambulatory Physician Services
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne2" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne2" data-bs-parent="#accordionFlushExample2">
+                                <div class="accordion-body">It is the comprehensive ambulatory operations platform that
+                                    engages physicians, connects patients, optimizes operations and provides reporting
+                                    and analytics designed to help health care providers make more informed decisions
+                                    and increased patient market share.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo2" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo2">
+                                    Outpatient Charge Capture
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo2" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo2" data-bs-parent="#accordionFlushExample2">
+                                <div class="accordion-body">Optum360™ Lynx Charge Capture helps facilities charge
+                                    consistently across the entire outpatient care spectrum. From the emergency
+                                    department and primary care clinics to specialty clinics and infusion and oncology
+                                    treatment centers, our outpatient charge capture solutions help your facilities
+                                    obtain appropriate reimbursement for services provided. Leverage proprietary
+                                    algorithms to drive consistent and accurate charging in alignment with the OPPS
+                                    guidelines. Manage for performance – revitalize value proposition, Rationalize
+                                    technology, Drive emergency department charge accuracy for payer and provider.
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Helping you manage your data & connectivity -->
+
+        <div class="container mybox2">
+            <div class="row">
+                <div class="h4 mybox3 shadow-sm">Helping you manage your data & connectivity</div>
+            </div>
+        </div>
+
+        <div class="container mt-5 mb-5 ">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card  mybox4 mb-5">
+                        <div class="card-body">
+                            <h4 class="card-title mb-4">Provider Data Management Solutions</h4>
+                            <hr>
+                            <h6 class="card-subtitle mb-3 text-muted">Database tools and sophisticated data management
+                                services from Optum® improve processes that depend on complete and accurate provider
+                                data.</h6>
+
+                            <p class="card-text text-muted mb-5">Access timely, accurate provider information, Outsource
+                                provider database maintenance</p>
+                            <button type="button" class="btn btn-light">Know more</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8">
+                    <!-- list of products under data management -->
+                    <div class="accordion accordion-flush" id="accordionFlushExample3">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading41">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse41" aria-expanded="false"
+                                    aria-controls="flush-collapse41">
+                                    Optum LINK
+                                </button>
+                            </h2>
+                            <div id="flush-collapse41" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading41" data-bs-parent="#accordionFlushExample3">
+                                <div class="accordion-body">The Optum Link Platform creates a connected community for
+                                    unprecedented payer-provider administrative collaboration. Secure multi-payer
+                                    Platform allows for The smart exchange of administrative and clinical information
+                                    powered by web-based, self-service tools and resources. More efficient claims and
+                                    payment workflow, stronger provider relationships, significantly lower costs—and
+                                    ultimately a better consumer experience.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading42">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse42" aria-expanded="false"
+                                    aria-controls="flush-collapse42">
+                                    Business Process & Technology Services
+                                </button>
+                            </h2>
+                            <div id="flush-collapse42" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading42" data-bs-parent="#accordionFlushExample3">
+                                <div class="accordion-body">Provided by Optum Connect, these IT services are of two
+                                    kinds: Application services (that help providers integrate Optum and third party
+                                    applications via. these PaaS offerings) and Infrastructure Services (that enable
+                                    providers to have a mix of on-premise and cloud deployments for managing their data
+                                    and the applications that run on top of that data).
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-heading43">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse43" aria-expanded="false"
+                                    aria-controls="flush-collapse43">
+                                    Electronic Data Interchange (EDI) Solution
+                                </button>
+                            </h2>
+                            <div id="flush-collapse43" class="accordion-collapse collapse"
+                                aria-labelledby="flush-heading43" data-bs-parent="#accordionFlushExample3">
+                                <div class="accordion-body">The Optum Intelligent EDI Platform initiative aims to merge
+                                    Optum’s discrete products into one-integrated validation product suite.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Helping you give superior Patient Experience -->
+
+                <!-- orange bar-->
+                <div class="container mybox2">
+                    <div class="row">
+                        <div class="h4 mybox3 shadow-sm">Helping you give superior Patient Experience</div>
+                    </div>
+                </div>
+
+                <!-- card row -->
+                <div class="container mt-5 mb-5 ">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card  mybox4 mb-5">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Improve Patient's Financial Experience</h4>
+                                    <hr>
+                                    <h6 class="card-subtitle mb-3 text-muted">Elevates patient’s financial experience
+                                        across their entire encounter.</h6>
+
+                                    <p class="card-text text-muted mb-5">Patients get accurate estimates of
+                                        out-of-pocket obligations and easy payment options even before care is
+                                        delivered. For health systems, it accelerates collection at the point of
+                                        service, reduces denials and improves patient satisfaction.</p>
+                                    <button type="button" class="btn btn-light">Know more</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card  mybox4 mb-5">
+                                <div class="card-body">
+                                    <h4 class="card-title mb-4">Manage Patient's Access to & Participation in Care</h4>
+                                    <hr>
+                                    <h6 class="card-subtitle mb-3 text-muted">Database tools and sophisticated data
+                                        management services from Optum® improve processes that depend on complete and
+                                        accurate provider data.</h6>
+
+                                    <p class="card-text text-muted mb-5">Access timely, accurate provider information,
+                                        Outsource provider database maintenance</p>
+                                    <button type="button" class="btn btn-light">Know more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- product accordians -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="accordion accordion-flush" id="accordionFlushExample4">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading61">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse61"
+                                                aria-expanded="false" aria-controls="flush-collapse61">
+                                                Ambulatory Physician Services
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse61" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading61" data-bs-parent="#accordionFlushExample4">
+                                            <div class="accordion-body">It is the comprehensive ambulatory operations
+                                                platform that engages physicians, connects patients, optimizes
+                                                operations and provides reporting and analytics designed to help health
+                                                care providers make more informed decisions and increased patient market
+                                                share.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="accordion accordion-flush mb-5" id="accordionFlushExample4">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading71">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse71"
+                                                aria-expanded="false" aria-controls="flush-collapse71">
+                                                Care Coordination Platform
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse71" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading71" data-bs-parent="#accordionFlushExample4">
+                                            <div class="accordion-body">It is the comprehensive ambulatory operations
+                                                platform that engages physicians, connects patients, optimizes
+                                                operations and provides reporting and analytics designed to help health
+                                                care providers make more informed decisions and increased patient market
+                                                share.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading72">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse72"
+                                                aria-expanded="false" aria-controls="flush-collapse72">
+                                                Post Acute Care Managed Services
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse72" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading72" data-bs-parent="#accordionFlushExample4">
+                                            <div class="accordion-body">It is the comprehensive ambulatory operations
+                                                platform that engages physicians, connects patients, optimizes
+                                                operations and provides reporting and analytics designed to help health
+                                                care providers make more informed decisions and increased patient market
+                                                share.
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Helping you streamline & optimize your operations -->
+
+                    <div class="container mybox2">
+                        <div class="row">
+                            <div class="h4 mybox3 shadow-sm">Helping you streamline & optimize your operations</div>
+                        </div>
+                    </div>
+
+
+                    <!-- card row -->
+                    <div class="container">
+                        <div class="row justify-content-evenly">
+                            <div class="col-4 mt-5">
+                                <div class="card  mybox4">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Optimize Costs & Operations</h4>
+                                        <hr>
+                                        <h6 class="card-subtitle mb-3 text-muted">Bring a new level of focus, resources
+                                            and structure to achieve deeper cost reductions on a recurring basis</h6>
+
+                                        <p class="card-text text-muted mb-5">OptumInsight partners with you to help you
+                                            achieve margins with our systematic clinical care redesign programs</p>
+                                        <button type="button" class="btn btn-light">Know more</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 mt-5">
+                                <div class="card  mybox4">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Manage health system networks </h4>
+                                        <hr>
+                                        <h6 class="card-subtitle mb-3 text-muted">Capture complete and accurate
+                                            information throughout the patient stay</h6>
+
+                                        <p class="card-text text-muted mb-5">You gain accurate quality reporting,
+                                            improved medical necessity determinations and reduced denials. By attaining
+                                            complete and accurate documentation and coding, you reduce friction with
+                                            payers, rework and lost revenue.</p>
+                                        <button type="button" class="btn btn-light">Know more</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 mt-5">
+                                <div class="card  mybox4">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Access quality thirdy-party research </h4>
+                                        <hr>
+                                        <h6 class="card-subtitle mb-3 text-muted">Capture complete and accurate
+                                            information throughout the patient stay</h6>
+
+                                        <p class="card-text text-muted mb-5">You gain accurate quality reporting,
+                                            improved medical necessity determinations and reduced denials. By attaining
+                                            complete and accurate documentation and coding, you reduce friction with
+                                            payers, rework and lost revenue.</p>
+                                        <button type="button" class="btn btn-light">Know more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- product accordians row -->
+                    <div class="container">
+                        <div class="row mt-5 ">
+                            <div class="col-4">
+                                <div class="accordion accordion-flush" id="accordionFlushExample11">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading508">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse508"
+                                                aria-expanded="false" aria-controls="flush-collapse508">
+                                                Surgery Profitability Compass
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse508" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading508"
+                                            data-bs-parent="#accordionFlushExample11">
+                                            <div class="accordion-body">Boost surgical efficiency and profitability.
+                                                Gain insight into operating room block and procedural supply usage to
+                                                inform your strategy on lowering costs while providing quality care.
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading507">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse507"
+                                                aria-expanded="false" aria-controls="flush-collapse507">
+                                                Optum Performance Analytics
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse507" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading507"
+                                            data-bs-parent="#accordionFlushExample11">
+                                            <div class="accordion-body">OPA brings together clinical and claims data to
+                                                provide a comprehensive view into the current & future risk of patient
+                                                populations. It help providers optimize delivery networks & value-based
+                                                risk contracts. OPA use cases: access longitudinal view of patient’s
+                                                data to support care coordination & patient engagement, to understand
+                                                care patterns in a delivery system, and to manage population health.
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading506">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse506"
+                                                aria-expanded="false" aria-controls="flush-collapse506">
+                                                Consumer Acquisition Services
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse506" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading506"
+                                            data-bs-parent="#accordionFlushExample11">
+                                            <div class="accordion-body">Helps healthcare organizations acquire and
+                                                retain their highest value consumers at a lower cost by increasing the
+                                                effectiveness of their marketing spend. It leverages Optum’s
+                                                unparalleled clinical, claims, and consumer data set and uses a patented
+                                                process to identify the most appropriate consumers for a provider. It
+                                                then uses precision marketing to develop, implement, and optimize
+                                                personalized, multi-channel marketing campaigns to drive growth.
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading501">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse501"
+                                                aria-expanded="false" aria-controls="flush-collapse501">
+                                                Strategic Advisory Services (Consulting)
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse501" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading501"
+                                            data-bs-parent="#accordionFlushExample11">
+                                            <div class="accordion-body">Consulting services—including guidance, insights
+                                                and practical strategies—to help provider organizations chart their
+                                                future.
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading502">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse502"
+                                                aria-expanded="false" aria-controls="flush-collapse502">
+                                                Crimson Continuum of Care
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse502" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading502" data-bs-parent="#accordionFlushExample2">
+                                            <div class="accordion-body">Crimson Continuum of Care provides Hospital
+                                                Inpatient Analytics based on Billing / Charge data from Health systems.
+                                                It allows risk – adjusted comparison of Hospital and Physician
+                                                performance on cost, quality and utilization parameters.
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading503">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse503"
+                                                aria-expanded="false" aria-controls="flush-collapse503">
+                                                Optum Market Advantage
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse503" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading503"
+                                            data-bs-parent="#accordionFlushExample11">
+                                            <div class="accordion-body">An integrated web portal to support strategic
+                                                planning departments. It combines aspects from Crimson Market Advantage
+                                                and Research & Insights. CMA is a web application for market analytics
+                                                and physician targeting. We combine best-in-class data assets, market
+                                                insights, referral analytics, and CRM workflow.
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading504">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse504"
+                                                aria-expanded="false" aria-controls="flush-collapse504">
+                                                Practice management Platform Optimization
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse504" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading504"
+                                            data-bs-parent="#accordionFlushExample11">
+                                            <div class="accordion-body">Optum Global Works delivers a suite of practice
+                                                management solutions designed to help clients strengthen revenue cycle,
+                                                managed care and patient satisfaction goals. These solutions leverage
+                                                existing technology within a clients network of practice management
+                                                systems to maximize client investment. GW also delivers technical
+                                                consulting capabilities as well as custom application development
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading505">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse505"
+                                                aria-expanded="false" aria-controls="flush-collapseTwo2">
+                                                Provider Advisory Services (Consulting)
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse505" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading505"
+                                            data-bs-parent="#accordionFlushExample11">
+                                            <div class="accordion-body">Strategy consulting for payers and providers to
+                                                help organizations remain relevant and grow sustainably.
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-4">
+                                <div class="accordion accordion-flush" id="accordionFlushExample701">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading511">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse511"
+                                                aria-expanded="false" aria-controls="flush-collapse511">
+                                                Crimson Medical Referrals
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse511" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading511"
+                                            data-bs-parent="#accordionFlushExample701">
+                                            <div class="accordion-body">A web application that provides an EMR-agnostic
+                                                platform to facilitate clinical referrals across care settings; supports
+                                                office staff to match patients with the most appropriate destination for
+                                                care. CMR prevents leakage at the point of referral, and provides the
+                                                means to track, measure, and streamline network performance.
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-4">
+                                <div class="accordion accordion-flush" id="accordionFlushExample901">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading901">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse901"
+                                                aria-expanded="false" aria-controls="flush-collapse901">
+                                                Hospital Research Information Services
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse901" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading901"
+                                            data-bs-parent="#accordionFlushExample901">
+                                            <div class="accordion-body">Consists of 18 distinct, constituency-based
+                                                research programs targeted at health systems C-suite executives. Each
+                                                program has its own research team, services and deliverables. These
+                                                information services help provider organizations to explore growth
+                                                options around consolidation and high service models.
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading902">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse902"
+                                                aria-expanded="false" aria-controls="flush-collapse902">
+                                                Industry research Information Services
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse902" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading902"
+                                            data-bs-parent="#accordionFlushExample901">
+                                            <div class="accordion-body">Serves three broad constituencies: Health plans:
+                                                Dedicated research team conducts best-practice research on industry
+                                                trends and provides thought leadership for plans, largely focused on
+                                                provider dynamics today but expanding to constituency-based offerings
+                                                for plans across the year. Life sciences: Very small team translates
+                                                hospital focused research to be more relevant to med tech and pharma.
+                                                Planning to expand and deepen this team. Rest of industry: Provide
+                                                actionable insights and tools to help members understand provider
+                                                customers as well as they understand their own products and services.
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading903">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse903"
+                                                aria-expanded="false" aria-controls="flush-collapse903">
+                                                International Research
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse903" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading903"
+                                            data-bs-parent="#accordionFlushExample901">
+                                            <div class="accordion-body">Global research for international hospital and
+                                                health systems, with the goal of bringing members closer to best
+                                                practice performance and gaining insight from examples from other
+                                                countries; heaviest client base in anglophone countries (Australia, UK,
+                                                Canada) with additional clients in the rest of Europe, the Middle East,
+                                                and Latin America.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-heading904">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse904"
+                                                aria-expanded="false" aria-controls="flush-collapse904">
+                                                Talent Development Information Services
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse904" class="accordion-collapse collapse"
+                                            aria-labelledby="flush-heading904"
+                                            data-bs-parent="#accordionFlushExample901">
+                                            <div class="accordion-body">Leadership development business that builds
+                                                custom content on leadership challenges of health systems and physician
+                                                groups; team also includes salaried faculty to teach onsite skills-based
+                                                curriculum to hospital/health system administrative staff, physician
+                                                executive, nursing leaders, and some frontline staff; base of ~30
+                                                distinct 4-hour modules (change management, innovation, etc.)
+
+
+
+                                            </div>
+                                        </div>
+                                    </div>
 
 
 
 
-    <!-- category-wise rendering category headers in orange boxes on the left, subprocesses in rows to the right and products in grey boxes under them -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+                        crossorigin="anonymous"></script>
 
+                    <script>
+                        function myFunction1() {
+                            var x = document.getElementById("solutions1000");
+                            if (x.style.display === "none") {
+                                x.style.display = "block";
+                            } else {
+                                x.style.display = "none";
+                            }
+                        }
 
+                    </script>
 
+</body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-  </body>
 </html>
