@@ -47,9 +47,27 @@
     .disabled {
         opacity: 0.6;
     }
+
+ 
+.mybunname{
+    margin-bottom: 20px;
+    background-color: #e87722;
+    color: white;
+}
+
+#bundles1000 {
+    display: none;
+}
+
+h5 {
+    text-align: center;
+}
+
+.my-center-aligned-text {
+    text-align: center;
+}
+
 </style>
-
-
 
 
 <body>
@@ -1114,14 +1132,138 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id = "bundles1000">
+
+ <div class="container">
+     <div class="row">
+         <div class="col-4">
+            <div class="card  mybox4 mybunname" style= "background-color: #E87722;" >
+                <div class="card-body">
+                    <h4 class="card-title mb-4">Bundle 1</h4>
+                    <hr>
+                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
+
+                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
+                    <button type="button" class="btn btn-light">Know more</button>
+                </div>
+            </div>
+         </div>
+         <div class="col-8">
+            <div class="row">
+                <div class="col border p-2">
+                    <h5>Ambulatory Physician Services</h5>
+                    <hr>
+                    <p class= "my-center-aligned-text">As a Provider, I need expert clinicians that can help review my clinical documentation to ensure that I am billing accurtely and correctly.</p>
+                </div>
+                <div class="col">
+                    <p>Outpatient Charge Capture</p>
+                </div>
+                <div class="col">
+                    <p>On-site Physician Advisor</p>
+                </div>
+                <div class="col">
+                    <p>Crimson Medical Referrals</p>
+                </div>
+            </div>
+
+
+
+
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-4">
+            <div class="card  mybox4 mybunname" style= "background-color: #F2B411;" >
+                <div class="card-body">
+                    <h4 class="card-title mb-4">Bundle 2</h4>
+                    <hr>
+                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
+
+                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
+                    <button type="button" class="btn btn-light">Know more</button>
+                </div>
+            </div>
+         </div>
+         <div class="col-8"></div>
+     </div>
+     <div class="row">
+         <div class="col-4">
+            <div class="card  mybox4 mybunname"style= "background-color: #B3B3B3;" >
+                <div class="card-body">
+                    <h4 class="card-title mb-4">Bundle 3</h4>
+                    <hr>
+                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
+
+                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
+                    <button type="button" class="btn btn-light">Know more</button>
+                </div>
+            </div>
+         </div>
+         <div class="col-8"></div>
+     </div>
+     <div class="row">
+         <div class="col-4">
+            <div class="card  mybox4 mybunname" style= "background-color: #444444;" >
+                <div class="card-body">
+                    <h4 class="card-title mb-4">Bundle 4</h4>
+                    <hr>
+                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
+
+                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
+                    <button type="button" class="btn btn-light">Know more</button>
+                </div>
+            </div>
+         </div>
+         <div class="col-8"></div>
+     </div>
+     <div class="row">
+         <div class="col-4">
+            <div class="card  mybox4 mybunname" style= "background-color: #959595;">
+                <div class="card-body">
+                    <h4 class="card-title mb-4">Bundle 5</h4>
+                    <hr>
+                    <h6 class="card-subtitle mb-3">Contains a group of products</h6>
+
+                    <p class="card-text mb-5">Contains a group of products Contains a group of products Contains a group of productsContains a group of products</p>
+                    <button type="button" class="btn btn-light">Know more</button>
+                </div>
+            </div>
+         </div>
+         <div class="col-8"></div>
+     </div>
+ </div>   
+
+</div>
+                    
+
+
+
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
                         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
                         crossorigin="anonymous"></script>
-
                     <script>
                         function myFunction1() {
                             var x = document.getElementById("solutions1000");
+                            var y = document.getElementById("bundles1000");
                             if (x.style.display === "none") {
+                                y.style.display = "none";
+                                x.style.display = "block";
+                                
+                            } else {
+                                x.style.display = "none";
+                            }
+                        }
+                        function myFunction2() {
+                            var x = document.getElementById("bundles1000");
+                            var y = document.getElementById("solutions1000");
+                            if (x.style.display === "none") {
+                                y.style.display = "none";
                                 x.style.display = "block";
                             } else {
                                 x.style.display = "none";
@@ -1129,6 +1271,10 @@
                         }
 
                     </script>
+
+
+
+
 
 </body>
 
