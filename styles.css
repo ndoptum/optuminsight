@@ -1,0 +1,86 @@
+    .brandlogo {
+        height: 60px;
+    }
+
+    .mynav {
+        margin-left: auto;
+        padding-right: 50px;
+    }
+
+    .mybox1 {
+        padding: 20px 20px 20px 10px;
+    }
+
+    .mycont1 {
+        padding-bottom: 50px;
+        font-size:x-large;
+        font-weight: 300;
+
+    }
+
+    .mybox3 {
+        padding: 10px;
+        background-color: #CE4B27;
+        color: white;
+    }
+
+    .mybox5 {
+        padding: 10px;
+        background-color: #90BC53;
+        color: white;
+    }
+
+    .mybox4:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition-duration: 0.25s;
+    }
+
+    .disabled {
+        opacity: 0.6;
+    }
+
+
+    .mybunname {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: #e87722;
+        color: white;
+    }
+
+    #bundles1000, #bundles2000 {
+    display: none;
+}
+
+    .mycenter {
+        text-align: center;
+    }
+
+    .mysmallfont {
+        font-size: 80%;
+    }
+
+    .myhover:hover {
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        transition-duration: 0.15s;
+        background-color: #f2f4f3;
+    }
+
+    .my-button-screentop {
+        background-color: transparent;
+        border: 0px;
+        letter-spacing: 2px;
+        font-weight: 500;
+    }
+
+    .my-button-screentop:hover {
+        background-color:#f5f5f5; 
+        font-weight: 700; 
+
+    }
+    .accordion {
+        border: 5px;
+    }
+
+    .accordion-button {
+        font-weight: 500;
+    }
