@@ -7,6 +7,13 @@
         padding-right: 50px;
     }
 
+    .mybutton {
+        letter-spacing: 5px;
+        margin-right: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
     .mybox1 {
         padding: 20px 20px 20px 10px;
     }
@@ -26,7 +33,7 @@
 
     .mybox5 {
         padding: 10px;
-        background-color: #90BC53;
+        background-color: #A32A2E;
         color: white;
     }
 
@@ -35,15 +42,46 @@
         transition-duration: 0.25s;
     }
 
+    .mybox4 {
+        background-color: #f5f5f5;
+    }
+
+    .mybox44:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition-duration: 0.25s;
+    }
+
+    .mybox44 {
+        background-color: #f5f5f5;
+    }
+
     .disabled {
         opacity: 0.6;
     }
 
+    .know-more-payer {
+        /* background-color: #90BC53; */
+        /* color: white; */
+        font-weight: 500;
+    }
 
-    .mybunname {
+     .know-more-provider {
+        /* background-color: #CE4B27; */
+        /* color: white; */
+        font-weight: 500;
+    }
+
+    .mybundlebox-provider {
         margin-bottom: 10px;
         margin-top: 10px;
-        background-color: #e87722;
+        background-color: #CE4B27;
+        color: white;
+    }
+
+    .mybundlebox-payer {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: #A32A2E;
         color: white;
     }
 
