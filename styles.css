@@ -108,9 +108,10 @@
 
     .my-button-screentop {
         background-color: transparent;
-        border: 0px;
+        border: 3px;
         letter-spacing: 2px;
         font-weight: 500;
+        
     }
 
     .my-button-screentop:hover {
